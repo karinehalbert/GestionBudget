@@ -10,5 +10,9 @@ public class TestEconomiesService {
 	public void test() {
 		fail("Not yet implemented");
 	}
+	@Test
+	public void testGetTotalEconomies() {
+		fail("Not yet implemented");
+	}
 
 }

@@ -1,8 +1,6 @@
 package metier;
 
 import entity.DepenseEffectuee;
-import entity.Factory;
-import entity.PosteDepense;
 
 /**
  * Classe service de gestion des dépenses réelles

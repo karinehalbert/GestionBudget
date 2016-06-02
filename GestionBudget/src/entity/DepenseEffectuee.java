@@ -1,7 +1,7 @@
 package entity;
 
 /**
- * Correspond à une seule dépense
+ * Correspond à une seule dépense (réelle à pointer)
  * @author Karine
  *
  */

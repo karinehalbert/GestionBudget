@@ -2,7 +2,12 @@ package entity;
 
 import java.util.Date;
 
-public class PosteDepenseRecurrent extends PosteDepense {
+/**
+ * Dépenses fixes (mensuelles ou annuelles) prévues
+ * @author Karine
+ *
+ */
+public abstract class PosteDepenseRecurrent extends PosteDepense {
 	
 	//On séparera l'annuel et le mensuel avec leur type (i.e. la fréquence dépendra du type)
 	
@@ -17,6 +22,19 @@ public class PosteDepenseRecurrent extends PosteDepense {
 	public PosteDepenseRecurrent(String nomPosteDepense) {
 		super(nomPosteDepense);
 	}
+
+	public PosteDepenseRecurrent(Date datePrevue, Double sommePrevue) {
+		super();
+		this.datePrevue = datePrevue;
+		this.sommePrevue = sommePrevue;
+	}
+	
+	public PosteDepenseRecurrent(String nomPosteDepense, Date datePrevue, Double sommePrevue) {
+		super(nomPosteDepense);
+		this.datePrevue = datePrevue;
+		this.sommePrevue = sommePrevue;
+	}
+	
 
 	
 	

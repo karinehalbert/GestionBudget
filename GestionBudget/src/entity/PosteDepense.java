@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Liste de dépenses
+ * Liste de dépenses correspondant à une catégorie
  * @author Karine
  *
  */
@@ -22,7 +22,7 @@ public abstract class PosteDepense {
 		this.listeDepenses = new ArrayList<DepenseEffectuee>();
 	}
 	
-	//Dans PDService
+	//TODO A appeler dans PosteDepenseService
 	public void addDepense(DepenseEffectuee d){
 		listeDepenses.add(d);
 	}

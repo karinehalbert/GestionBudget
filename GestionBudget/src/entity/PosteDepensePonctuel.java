@@ -3,15 +3,15 @@ package entity;
 public class PosteDepensePonctuel extends PosteDepense {
 
 	/**
-	 * Catégorie de dépenses qui se répètent régulièrement sans être prévues à date fixe (courses, vêtements, etc.)
+	 * Catégorie de dépenses qui se répètent régulièrement sans être prévues à
+	 * date fixe (courses, vêtements, etc.)
 	 */
-	public PosteDepensePonctuel() {
+	PosteDepensePonctuel() {
 		super();
 	}
 
-	public PosteDepensePonctuel(String nomPosteDepense) {
+	PosteDepensePonctuel(String nomPosteDepense) {
 		super(nomPosteDepense);
 	}
-	
-	
+
 }

@@ -15,25 +15,47 @@ public abstract class PosteDepenseRecurrent extends PosteDepense {
 	//Date : date dd/MM, pas YYYY parce qu'un exercice financier est sur une année
 	protected Double sommePrevue;
 
-	public PosteDepenseRecurrent() {
+	PosteDepenseRecurrent() {
 		super();
 	}
 
-	public PosteDepenseRecurrent(String nomPosteDepense) {
+	PosteDepenseRecurrent(String nomPosteDepense) {
 		super(nomPosteDepense);
 	}
 
-	public PosteDepenseRecurrent(Date datePrevue, Double sommePrevue) {
+	PosteDepenseRecurrent(Date datePrevue, Double sommePrevue) {
 		super();
 		this.datePrevue = datePrevue;
 		this.sommePrevue = sommePrevue;
 	}
 	
-	public PosteDepenseRecurrent(String nomPosteDepense, Date datePrevue, Double sommePrevue) {
+	PosteDepenseRecurrent(String nomPosteDepense, Date datePrevue, Double sommePrevue) {
 		super(nomPosteDepense);
 		this.datePrevue = datePrevue;
 		this.sommePrevue = sommePrevue;
 	}
+
+	public Date getDatePrevue() {
+		return datePrevue;
+	}
+
+	public void setDatePrevue(Date datePrevue) {
+		this.datePrevue = datePrevue;
+	}
+
+	public Double getSommePrevue() {
+		return sommePrevue;
+	}
+
+	public void setSommePrevue(Double sommePrevue) {
+		this.sommePrevue = sommePrevue;
+	}
+
+	@Override
+	public String toString() {
+		return "PosteDepenseRecurrent [datePrevue=" + datePrevue + ", sommePrevue=" + sommePrevue + "]";
+	}
+	
 	
 
 	

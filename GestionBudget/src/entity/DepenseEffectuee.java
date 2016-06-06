@@ -10,25 +10,29 @@ import java.util.Date;
  */
 public class DepenseEffectuee {
 
-	protected String nomDepense;
-	protected Date dateDepense;
-	protected boolean isPointed;
+	private String nomDepense;
+	private Date dateDepense;
+	private Double sommeDepense;
+	private boolean isPointed;
 
 	DepenseEffectuee() {
 		this.nomDepense = "";
 		this.dateDepense = new Date();
+		this.sommeDepense = 0.0;
 		this.isPointed = false;
 	}
 
-	DepenseEffectuee(String nomDepense, Date dateDepense) {
+	DepenseEffectuee(String nomDepense, Date dateDepense, Double sommeDepense) {
 		this.nomDepense = nomDepense;
 		this.dateDepense = dateDepense;
+		this.sommeDepense = sommeDepense;
 		this.isPointed = false;
 	}
 
-	DepenseEffectuee(String nomDepense, Date dateDepense, boolean isPointed) {
+	DepenseEffectuee(String nomDepense, Date dateDepense, Double sommeDepense, boolean isPointed) {
 		this.nomDepense = nomDepense;
 		this.dateDepense = dateDepense;
+		this.sommeDepense = sommeDepense;
 		this.isPointed = isPointed;
 	}
 
@@ -48,6 +52,14 @@ public class DepenseEffectuee {
 		this.dateDepense = dateDepense;
 	}
 
+	public Double getSommeDepense() {
+		return sommeDepense;
+	}
+
+	public void setSommeDepense(Double sommeDepense) {
+		this.sommeDepense = sommeDepense;
+	}
+
 	public boolean isPointed() {
 		return isPointed;
 	}
@@ -58,8 +70,8 @@ public class DepenseEffectuee {
 
 	@Override
 	public String toString() {
-		return "DepenseEffectuee [nomDepense=" + nomDepense + ", dateDepense=" + dateDepense + ", isPointed="
-				+ isPointed + "]";
+		return "DepenseEffectuee [nomDepense=" + nomDepense + ", dateDepense=" + dateDepense + ", sommeDepense="
+				+ sommeDepense + ", isPointed=" + isPointed + "]";
 	}
 
 }

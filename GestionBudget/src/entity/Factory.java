@@ -11,12 +11,13 @@ public class Factory {
 		return new DepenseEffectuee();
 	}
 
-	public DepenseEffectuee createDepenseEffectuee(String nomDepense, Date dateDepense) {
-		return new DepenseEffectuee(nomDepense, dateDepense);
+	public DepenseEffectuee createDepenseEffectuee(String nomDepense, Date dateDepense, Double sommeDepense) {
+		return new DepenseEffectuee(nomDepense, dateDepense, sommeDepense);
 	}
 
-	public DepenseEffectuee createDepenseEffectuee(String nomDepense, Date dateDepense, boolean isPointed) {
-		return new DepenseEffectuee(nomDepense, dateDepense, isPointed);
+	public DepenseEffectuee createDepenseEffectuee(String nomDepense, Date dateDepense, Double sommeDepense,
+			boolean isPointed) {
+		return new DepenseEffectuee(nomDepense, dateDepense, sommeDepense, isPointed);
 	}
 
 	// PosteDepenseAnnuel
@@ -69,6 +70,15 @@ public class Factory {
 
 	public PosteDepenseEconomie createPosteDepenseEconomie(String nomPosteDepense) {
 		return new PosteDepenseEconomie(nomPosteDepense);
+	}
+
+	// Dépenses du mois
+	public MonthExpenses createMonthExpenses() {
+		return new MonthExpenses();
+	}
+
+	public MonthExpenses createMonthExpenses(int numMonth) {
+		return new MonthExpenses(numMonth);
 	}
 
 }

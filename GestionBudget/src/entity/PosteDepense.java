@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Liste de dépenses correspondant à une catégorie
+ * Liste de dÃ©penses correspondant Ã  une catÃ©gorie
  * 
  * @author Karine
  *

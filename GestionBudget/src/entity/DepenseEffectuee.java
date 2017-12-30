@@ -3,7 +3,7 @@ package entity;
 import java.util.Date;
 
 /**
- * Correspond à une seule dépense (réelle à pointer)
+ * Correspond Ã  une seule dÃ©pense (rÃ©elle Ã  pointer)
  * 
  * @author Karine
  *

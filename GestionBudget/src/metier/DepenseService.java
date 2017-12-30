@@ -3,7 +3,7 @@ package metier;
 import entity.DepenseEffectuee;
 
 /**
- * Classe service de gestion des dépenses réelles
+ * Classe service de gestion des dÃ©penses rÃ©elles
  * @author Karine
  *
  */
@@ -14,7 +14,7 @@ public class DepenseService {
 	}
 	
 	public void addDepense(DepenseEffectuee d){
-		//Factory.createPosteDepense().addDepense(d); //On doit préciser à quel type de PosteDepense on ajoute une dépense
+		//Factory.createPosteDepense().addDepense(d); //On doit prÃ©ciser Ã  quel type de PosteDepense on ajoute une dÃ©pense
 	}
 
 }

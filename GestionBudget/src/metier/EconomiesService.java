@@ -1,7 +1,7 @@
 package metier;
 
 /**
- * Classe service de gestion des actions de l'écran des économies
+ * Classe service de gestion des actions de l'Ã©cran des Ã©conomies
  * @author Karine
  *
  */

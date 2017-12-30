@@ -1,8 +1,8 @@
 package metier;
 
 /**
- * Récapitulatif de l'état courant d'un compte bancaire, de son état prévu à une date T, et
- * récapitulatifs mensuel et annuel de tous les comptes bancaires
+ * RÃ©capitulatif de l'Ã©tat courant d'un compte bancaire, de son Ã©tat prÃ©vu Ã  une date T, et
+ * rÃ©capitulatifs mensuel et annuel de tous les comptes bancaires
  * @author Karine
  *
  */

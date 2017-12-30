@@ -3,16 +3,16 @@ package entity;
 import java.util.Date;
 
 /**
- * Dépenses fixes (mensuelles ou annuelles) prévues
+ * DÃ©penses fixes (mensuelles ou annuelles) prÃ©vues
  * @author Karine
  *
  */
 public abstract class PosteDepenseRecurrent extends PosteDepense {
 	
-	//On séparera l'annuel et le mensuel avec leur type (i.e. la fréquence dépendra du type)
+	//On sÃ©parera l'annuel et le mensuel avec leur type (i.e. la frÃ©quence dÃ©pendra du type)
 	
-	protected Date datePrevue;//si mensuel : mettre la prochaine date et on répercutera le même jour tous les mois
-	//Date : date dd/MM, pas YYYY parce qu'un exercice financier est sur une année
+	protected Date datePrevue;//si mensuel : mettre la prochaine date et on rÃ©percutera le mÃªme jour tous les mois
+	//Date : date dd/MM, pas YYYY parce qu'un exercice financier est sur une annÃ©e
 	protected Double sommePrevue;
 
 	PosteDepenseRecurrent() {

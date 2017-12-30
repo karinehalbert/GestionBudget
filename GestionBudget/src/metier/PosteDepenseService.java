@@ -1,7 +1,7 @@
 package metier;
 
 /**
- * Classe service de gestion des postes de dépense
+ * Classe service de gestion des postes de dÃ©pense
  * @author Karine
  *
  */

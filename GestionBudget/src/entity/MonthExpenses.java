@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Dédié au stockage des transactions réelles pendant un mois (fiche de compte
+ * DÃ©diÃ© au stockage des transactions rÃ©elles pendant un mois (fiche de compte
  * mensuelle)
  * 
  * @author Karine
@@ -12,10 +12,8 @@ import java.util.List;
  */
 public class MonthExpenses {
 
-	private int numMonth; // Numéro du mois dans le calendrier
-	private List<DepenseEffectuee> listDepensesMois; // Liste des dépenses
-														// effectuées dans le
-														// mois
+	private int numMonth; // NumÃ©ro du mois dans le calendrier
+	private List<DepenseEffectuee> listDepensesMois; // Liste des dÃ©penses effectuÃ©es dans le mois
 
 	MonthExpenses() {
 		this.numMonth = 0;
@@ -32,7 +30,7 @@ public class MonthExpenses {
 	}
 
 	/**
-	 * Renvoie le nom du mois correspondant à son numéro
+	 * Renvoie le nom du mois correspondant Ã  son numÃ©ro
 	 * 
 	 * @return le nom du mois
 	 */
@@ -43,7 +41,7 @@ public class MonthExpenses {
 			name = "Janvier";
 			break;
 		case 2:
-			name = "Février";
+			name = "FÃ©vrier";
 			break;
 		case 3:
 			name = "Mars";
@@ -61,7 +59,7 @@ public class MonthExpenses {
 			name = "Juillet";
 			break;
 		case 8:
-			name = "Août";
+			name = "AoÃ»t";
 			break;
 		case 9:
 			name = "Septembre";
@@ -73,7 +71,7 @@ public class MonthExpenses {
 			name = "Novembre";
 			break;
 		case 12:
-			name = "Décembre";
+			name = "DÃ©cembre";
 			break;
 		default:
 			name = "";

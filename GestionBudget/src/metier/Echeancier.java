@@ -5,8 +5,8 @@ import java.util.List;
 import entity.PosteDepenseAnnuel;
 
 /**
- * Cette classe permet de faire des récapitulatifs des dépenses à venir pour l'utilisateur
- * Les dépenses prises en comptes seront seulement annuelles (une dépense fixe mensuelle est décomptée en début de chaque mois dont géré plus directement)
+ * Cette classe permet de faire des rÃ©capitulatifs des dÃ©penses Ã  venir pour l'utilisateur
+ * Les dÃ©penses prises en comptes seront seulement annuelles (une dÃ©pense fixe mensuelle est dÃ©comptÃ©e en dÃ©but de chaque mois donc gÃ©rÃ© plus directement)
  * @author Karine
  *
  */

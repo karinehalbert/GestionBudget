@@ -72,7 +72,7 @@ public class Factory {
 		return new PosteDepenseEconomie(nomPosteDepense);
 	}
 
-	// Dépenses du mois
+	// DÃ©penses du mois
 	public MonthExpenses createMonthExpenses() {
 		return new MonthExpenses();
 	}

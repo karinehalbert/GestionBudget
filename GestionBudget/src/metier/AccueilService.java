@@ -1,7 +1,7 @@
 package metier;
 
 /**
- * Classe service de gestion des actions de l'écran d'accueil
+ * Classe service de gestion des actions de l'Ã©cran d'accueil
  * @author Karine
  *
  */

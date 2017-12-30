@@ -3,8 +3,8 @@ package entity;
 public class PosteDepensePonctuel extends PosteDepense {
 
 	/**
-	 * Catégorie de dépenses qui se répètent régulièrement sans être prévues à
-	 * date fixe (courses, vêtements, etc.)
+	 * CatÃ©gorie de dÃ©penses qui se rÃ©pÃ¨tent rÃ©guliÃ¨rement sans Ãªtre prÃ©vues Ã 
+	 * date fixe (courses, vÃªtements, etc.)
 	 */
 	PosteDepensePonctuel() {
 		super();

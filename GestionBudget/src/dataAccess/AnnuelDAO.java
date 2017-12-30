@@ -1,7 +1,7 @@
 package dataAccess;
 
 /**
- * Accès aux données des dépenses fixes annuelles
+ * AccÃ¨s aux donnÃ©es des dÃ©penses fixes annuelles
  * @author Karine
  *
  */

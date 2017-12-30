@@ -1,7 +1,7 @@
 package metier;
 
 /**
- * Classe service de gestion des actions de l'écran des dépenses fixes mensuelles prévues
+ * Classe service de gestion des actions de l'Ã©cran des dÃ©penses fixes mensuelles prÃ©vues
  * @author Karine
  *
  */

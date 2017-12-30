@@ -1,7 +1,7 @@
 package entity;
 
 /**
- * Argent mis de côté et réellement mobilisable
+ * Argent mis de cÃ´tÃ© et rÃ©ellement mobilisable
  * 
  * @author Karine
  *

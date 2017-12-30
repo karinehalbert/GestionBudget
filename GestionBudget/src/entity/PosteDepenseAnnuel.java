@@ -3,7 +3,7 @@ package entity;
 import java.util.Date;
 
 /**
- * Poste de dépense fixe à verser une fois par an
+ * Poste de dÃ©pense fixe Ã  verser une fois par an
  * 
  * @author Karine
  *
